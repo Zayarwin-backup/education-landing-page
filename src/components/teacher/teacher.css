@@ -1,0 +1,43 @@
+.teacher__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+
+.teacher__header h1 {
+  font-size: 4rem;
+}
+
+.teacher__btn {
+  background-color: #ffa600;
+}
+
+.teacher__container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(32rem, 1fr)
+  );
+  gap: 3rem;
+  margin-top: 70px;
+}
+.teacher__card {
+  text-align: center;
+}
+
+.teacher__card img {
+  width: 100%;
+}
+.teacher__card h2 {
+  margin-top: 20px;
+  font-size: 2.7rem;
+  opacity: 0.8;
+}
+
+.teacher__card h4 {
+  margin-top: 5px;
+  font-size: 1.6rem;
+  color: #6f6f76;
+  font-weight: 400;
+}
